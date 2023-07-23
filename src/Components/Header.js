@@ -10,12 +10,12 @@ const Header = () => {
   const isDark = colorMode === "dark";
   const [isMedia] = useMediaQuery("(min-width:600px)");
   const onButtonClick = () => {
-    fetch("20CSR211_SUDHANED.pdf").then((response) => {
+    fetch("SUDHANED_20CSR211.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "20CSR211_SUDHANED.pdf";
+        alink.download = "SUDHANED_20CSR211.pdf";
         alink.click();
       });
     });

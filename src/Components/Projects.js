@@ -67,7 +67,7 @@ const Profile = () => {
           </Card>
           <Card maxW="sm" ml={isMedia ? 6 : 0}>
             <Image
-              src="https://media.licdn.com/dms/image/D562DAQFmU9Axul2zxw/profile-treasury-image-shrink_1920_1920/0/1687576323487?e=1688313600&v=beta&t=fRfC6VFIKC5EUNmqfJ9uOJtZ5nN8ACeQsh8uAcMxcsE"
+              src="https://res.cloudinary.com/dn7pg70et/image/upload/v1690129247/fashion_p48bu3.jpg"
               alt="Green double couch with wooden legs"
               borderRadius="lg"
               w="350px"
